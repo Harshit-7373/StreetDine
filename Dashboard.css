@@ -1,0 +1,71 @@
+.dashboard {
+    padding: 20px;
+    margin-left: 250px; /* Adjust based on Sidebar width */
+    background-color: #f4f4f9; /* Light background for the dashboard */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+  }
+  
+  .dashboard h1 {
+    color: #2c3e50; /* Darker color for the main heading */
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger font size for the heading */
+    font-weight: 600; /* Make heading bold */
+  }
+  
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #e0e0e0; /* Light border color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(25% - 20px); /* Adjust based on desired card size and gap */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .stat-card h2 {
+    color: #34495e; /* Slightly lighter dark color */
+    margin-top: 0;
+    font-size: 1.2em; /* Larger font size for card titles */
+  }
+  
+  .stat-value {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #3498db; /* Accent color for values */
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chart {
+    background-color: #ffffff; /* White background for charts */
+    border: 1px solid #e0e0e0; /* Light border color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 20px); /* Adjust based on desired chart size and gap */
+    min-height: 300px; /* Ensure charts have enough height */
+  }
+  
+  .chart h2 {
+    color: #34495e; /* Slightly lighter dark color */
+    margin-top: 0;
+    font-size: 1.2em; /* Larger font size for chart titles */
+  }
+  
